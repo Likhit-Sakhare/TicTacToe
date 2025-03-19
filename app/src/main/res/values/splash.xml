@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TicTacToe.CustomSplash" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">#D8BFD8</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tic_tac_toe</item>
+        <item name="windowSplashScreenIconBackgroundColor">#FFFFFF</item>
+        <item name="postSplashScreenTheme">@style/Theme.TicTacToe</item>
+    </style>
+</resources>
