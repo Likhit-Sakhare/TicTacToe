@@ -22,14 +22,8 @@ fun GameBoardBase() {
             color = Color.Gray,
             strokeWidth = 5f,
             cap = StrokeCap.Round,
-            start = Offset(
-                x = size.width * 1/3,
-                y = 0f
-            ),
-            end = Offset(
-                x = size.width * 1/3,
-                y = size.height
-            )
+            start = Offset(x = size.width * 1/3, y = 0f),
+            end = Offset(x = size.width * 1/3, y = size.height)
         )
 
         //Second vertical line
@@ -37,14 +31,8 @@ fun GameBoardBase() {
             color = Color.Gray,
             strokeWidth = 5f,
             cap = StrokeCap.Round,
-            start = Offset(
-                x = size.width * 2/3,
-                y = 0f
-            ),
-            end = Offset(
-                x = size.width * 2/3,
-                y = size.height
-            )
+            start = Offset(x = size.width * 2/3, y = 0f),
+            end = Offset(x = size.width * 2/3, y = size.height)
         )
 
         //First horizontal line
@@ -52,14 +40,8 @@ fun GameBoardBase() {
             color = Color.Gray,
             strokeWidth = 5f,
             cap = StrokeCap.Round,
-            start = Offset(
-                x = 0f,
-                y = size.height * 1/3
-            ),
-            end = Offset(
-                x = size.width,
-                y = size.height * 1/3
-            )
+            start = Offset(x = 0f, y = size.height * 1/3),
+            end = Offset(x = size.width, y = size.height * 1/3)
         )
 
         //Second horizontal line
@@ -67,14 +49,8 @@ fun GameBoardBase() {
             color = Color.Gray,
             strokeWidth = 5f,
             cap = StrokeCap.Round,
-            start = Offset(
-                x = 0f,
-                y = size.height * 2/3
-            ),
-            end = Offset(
-                x = size.width,
-                y = size.height * 2/3
-            )
+            start = Offset(x = 0f, y = size.height * 2/3),
+            end = Offset(x = size.width, y = size.height * 2/3)
         )
     }
 }

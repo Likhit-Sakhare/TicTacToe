@@ -1,7 +1,6 @@
 package com.likhit.tictactoe.presentation.game.components
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import com.likhit.tictactoe.presentation.game.utils.VictoryType
 
 @Composable

@@ -59,9 +59,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    //navigation
-    implementation(libs.navigation.compose)
-
     implementation("com.google.dagger:hilt-android:2.51.1")
     ksp("com.google.dagger:hilt-android-compiler:2.51.1")
     ksp("androidx.hilt:hilt-compiler:1.2.0")
@@ -70,7 +67,4 @@ dependencies {
 
     // splash api
     implementation(libs.androidx.splashscreen)
-
-    // extended icons
-    implementation("androidx.compose.material:material-icons-extended:1.7.6")
 }
